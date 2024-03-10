@@ -1,0 +1,155 @@
+.pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+.container{
+    display:flex;
+}
+.heading1{
+    flex-direction: row;
+    color:white;
+}
+.pic1{
+    float:left;
+    margin-right: 20px;
+    margin-top: -11px;
+    background-color: white;
+}
+.pic2{
+    margin-top: 6px;
+    margin-left: -68px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    background-color: white;
+}
+.heading2{
+    margin-top: 15px;
+    font-size: larger;
+    color:white;
+}
+.heading3{
+    float: left;
+    margin-top: 14px;
+    font-size: larger;
+    color:white;
+}
+.pic3{
+    margin-top: 70px;
+    margin-left: -178px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    background-color:white;
+}
+.heading4{
+    margin-top: 66px;
+    margin-left: 68px;
+    position: absolute;
+    font-size: larger;
+    color:white;
+}
+.row{
+   
+    align-items: center;
+    margin-left: 254px;
+  
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-1 {
+    flex-direction: row;
+    width: 38%; /* Adjust the width as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-right: 120px;
+    height: 55%;
+
+}
+
+.section-2 {
+    flex-direction: row;
+    width: 38%; /* Adjust the width as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-right: 120px;
+    height: -21%;
+}
+
+.skillh2,
+.eduh2 {
+    margin-top: 0;
+    color:white;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    color: rgb(248, 208, 159);
+}
+
+.star {
+    color: gold;
+    margin-left: 2%;
+}
+
+.projects,
+.education {
+    margin-top: 20px;
+}
+.experience{
+    flex-direction: row;
+}
+.container1{
+    height:80px;
+    width:50%;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    text-align: center;
+}
+.profileh2{
+    text-align: left;
+    margin-left: 2%;
+    text-decoration: underline;
+    color:white;
+}
+.profile-text{
+    font-size: larger;
+    margin-left: 10%;
+    color: rgb(248, 208, 159);
+}
+
+.experh2,
+.projh2 {
+    margin-top: 0;
+    color:white;
+}
+p{
+    color: rgb(248, 208, 159);
+}
+h3{
+    color: rgb(250, 177, 87);
+}
+.projh22{
+margin-top: 40px;
+color: white;
+}
